@@ -1,0 +1,26 @@
+<div style="text-align: center;">
+  <ejs-lineargauge orientation="Horizontal">
+    <e-axes>
+      <e-axis [line]="line" [majorTicks]="majorTicks"
+      [minorTicks]="minorTicks" isInversed="true"
+      [labelStyle]="labelStyle">
+      <e-ranges>
+        <e-range start="50" end="80" startWidth="5" endWidth="10"
+        color="blue"></e-range>
+        <!-- <e-range start="20" end="40" color="#E11584"></e-range> -->
+      </e-ranges>
+      <e-pointers>
+        <e-pointer value="40" markerType="Circle" height="3"
+        width="3" color="#ECC85B"></e-pointer>
+        <e-pointer value="30" type="Bar" color="#f54ea2"
+        animationDuration="5000"></e-pointer>
+      </e-pointers>
+    </e-axis>
+      <!-- <e-axis [line]="lineOne"
+      [majorTicks]="majorTicksOne" 
+      [minorTicks]="minorTicksOne"
+      opposedPosition="true">
+      </e-axis> -->
+    </e-axes>
+  </ejs-lineargauge>
+</div>
