@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { LinearGaugeModule } from '@syncfusion/ej2-angular-lineargauge'
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, LinearGaugeModule],
+  imports: [LinearGaugeModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
